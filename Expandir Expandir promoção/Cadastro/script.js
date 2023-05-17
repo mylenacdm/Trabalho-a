@@ -27,10 +27,5 @@ botaoCadastro.addEventListener("click", function () {
     return;
   }
   localStorage.setItem(nome, senhaConf);
-
-  //setar um valor no localStorage para armazenar os dados de todos os usuários cadastrados no sistema. (users)
-
-  //setar um valor no localStorage correspondente ao usuário atual que está logado (loggedUser)
-
   alert("Cadastro realizado com sucesso!");
 });

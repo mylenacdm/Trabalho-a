@@ -1,11 +1,10 @@
-body {
-    background-color: #eae6e6;
-}
+body{background-color: rgb(194, 194, 194);}
 
 #olho:hover{
-    background-image: url("/imgs/eye-password-hide.256x256.png");
+    background-image: url("/imgs/hidden.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover
+    
 }
 

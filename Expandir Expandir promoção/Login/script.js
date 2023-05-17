@@ -1,12 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
-  //essa função é executada antes de tudo, ela é executada antes de carregar o html da tela e tal
-
-  //aqui seria legal validar se o loggedUser salvo no localStorage está na lista de usuários cadastrados,
-  //se tiver tudo ok redirecionar para a tela principal, afinal o usuário já fez login (usar windows.location.href("") )
-
-  window.onload();
-});
-
 const senha = document.getElementById("Passwordlog");
 const nomeInput = document.getElementById("namelog");
 const form = document.getElementById("loginForm");
